@@ -20,5 +20,6 @@ a{
     color: chocolate;
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
+h1 {
+    font-family: 'Gelasio', serif; /* Aplica a fonte Gelasio ao h1 */
+}
