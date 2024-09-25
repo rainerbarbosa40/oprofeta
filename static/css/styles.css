@@ -23,3 +23,16 @@ a{
 h1 {
     font-family: 'Gelasio', serif; /* Aplica a fonte Gelasio ao h1 */
 }
+
+.fixed-image {
+    position: fixed; /* Fixa a imagem */
+    top: 10px; /* Distância do topo */
+    left: 10px; /* Distância da margem esquerda */
+    width: 170px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    z-index: 1000; /* Garante que a imagem esteja acima de outros elementos */
+}
+
+.title-container {
+    margin-left: 120px; /* Margem à esquerda para alinhar com a imagem */
+}
