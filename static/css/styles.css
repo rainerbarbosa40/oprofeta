@@ -2,6 +2,13 @@
 body {
     margin: 0; /* Remove a margem padrão do body */
     padding-bottom: 50px; /* Para evitar que o conteúdo fique atrás do rodapé */
+    background-color: rgba(253, 253, 253, 0.7); /* Fundo escuro semi-transparente */
+    background-image: url("/static/img/foto01.jpg"); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+    color: #fff; /* Define a cor do texto */
+
 }
 footer {
     background-color: #f1f1f1;
@@ -11,7 +18,7 @@ footer {
     bottom: 3px; /* Margem de 3 pixels da parte de baixo */
     left: 0;
     right: 0;
-    width: calc(100% - 6px); /* Para ajustar a largura considerando a margem */
+    width: 100%; /* Para ajustar a largura considerando a margem */
     margin: 3px; /* Margem de 3 pixels ao redor do rodapé */
     box-sizing: border-box; /* Inclui padding e margem no cálculo da largura */
 }
@@ -28,11 +35,24 @@ h1 {
     position: fixed; /* Fixa a imagem */
     top: 10px; /* Distância do topo */
     left: 10px; /* Distância da margem esquerda */
-    width: 170px; /* Define a largura da imagem */
+    width: 100px; /* Define a largura da imagem */
     height: auto; /* Mantém a proporção da imagem */
     z-index: 1000; /* Garante que a imagem esteja acima de outros elementos */
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.5); /* Adiciona sombra */
 }
 
 .title-container {
     margin-left: 120px; /* Margem à esquerda para alinhar com a imagem */
+}
+
+/* Media query para dispositivos móveis */
+@media (max-width: 768px) {
+    .fixed-image {
+        display: none; /* Oculta a imagem em telas menores */
+    }
+
+    .title-container {
+        margin-left: 0; /* Remove a margem à esquerda */
+        text-align: center; /* Centraliza o texto no modo mobile */
+    }
 }
