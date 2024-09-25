@@ -15,11 +15,11 @@ footer {
     text-align: center;
     padding: 4px;
     position: fixed;
-    bottom: 3px; /* Margem de 3 pixels da parte de baixo */
+    bottom: 1px; /* Margem de 1 pixels da parte de baixo */
     left: 0;
     right: 0;
     width: 100%; /* Para ajustar a largura considerando a margem */
-    margin: 3px; /* Margem de 3 pixels ao redor do rodapé */
+    margin: 1px; /* Margem de 1 pixels ao redor do rodapé */
     box-sizing: border-box; /* Inclui padding e margem no cálculo da largura */
 }
 a{
