@@ -31,15 +31,7 @@ h1 {
     font-family: 'Gelasio', serif; /* Aplica a fonte Gelasio ao h1 */
 }
 
-.fixed-image {
-    position: fixed; /* Fixa a imagem */
-    top: 10px; /* Distância do topo */
-    left: 10px; /* Distância da margem esquerda */
-    width: 100px; /* Define a largura da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    z-index: 1000; /* Garante que a imagem esteja acima de outros elementos */
-    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.5); /* Adiciona sombra */
-}
+
 
 .title-container {
     margin-left: 120px; /* Margem à esquerda para alinhar com a imagem */
@@ -55,4 +47,8 @@ h1 {
         margin-left: 0; /* Remove a margem à esquerda */
         text-align: center; /* Centraliza o texto no modo mobile */
     }
+}
+
+.audio-container {
+    margin-top: 20px;
 }
